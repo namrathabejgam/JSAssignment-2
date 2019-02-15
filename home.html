@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="screen left">
+      <h2>Tables</h2>
+      <input
+        type="text"
+        id="searchTableInput"
+        onkeyup="searchTable()"
+        placeholder="Search table"
+      />
+      <div id="tables"></div>
+    </div>
+    <div id="screen-right" class="screen right">
+      <h2>Menu</h2>
+      <input
+        type="text"
+        id="searchMenuInput"
+        onkeyup="searchMenu()"
+        placeholder="Search menu..by course,by food"
+      />
+      <div id="items"></div>
+    </div>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <form name="header-data">
+            <input
+              type="text"
+              id="tableName"
+              name="table-name"
+              style="border:none; border-color:transparent; background-color:#2622a6; color: white; font-size:25px; font-weight: bold; margin-left: 2px; margin-top:13px;"
+              readonly
+            />
+          </form>
+        </div>
+        <div class="modal-body">
+          <table cellspacing="10" id="tableContents"></table>
+        </div>
+        <div class="modal-footer">
+          <button
+            class="generateButton"
+            onclick="generateBill() "
+            style="font-size : 17px; width: 100%; height: 50px; text-align:right;"
+          >
+            CLOSE SESSION(GENERATE BILL)
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="home.js">
+    </script>
+  </body>
+</html>

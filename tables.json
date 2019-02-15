@@ -1,0 +1,37 @@
+{
+  "tables": [
+    {
+      "name": "Table-1",
+      "totalcost": 0,
+      "items": [
+        {
+          "name": "",
+          "count": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "name": "Table-2",
+      "totalcost": 0,
+      "items": [
+        {
+          "name": "",
+          "count": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "name": "Table-3",
+      "totalcost": 0,
+      "items": [
+        {
+          "name": "",
+          "count": 0,
+          "cost": 0
+        }
+      ]
+    }
+  ]
+}

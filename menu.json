@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "itemNo": 0,
+      "name": "Crusty Garlic Focaccia with Melted Cheese",
+      "cost": 105.0
+    },
+    {
+      "itemNo": 1,
+      "name": "French Fries",
+      "cost": 105.0
+    },
+    {
+      "itemNo": 2,
+      "name": "Home Country Fries with Herbs & Chilli Flakes",
+      "cost": 105.0
+    },
+    {
+      "itemNo": 4,
+      "name": "French Fries with Cheese & Jalapenos",
+      "cost": 105.0
+    }
+  ]
+}
